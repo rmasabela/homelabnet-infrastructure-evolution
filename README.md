@@ -12,7 +12,7 @@ tags:
   - sre
 ---
 
-# 🌐 homelabnet-infrastructure-evolution — Central Index
+# 🌐 HomeLabNet — Central Index
 
 Bienvenido al índice central de **HomeLabNet**. Este repositorio y vault de Obsidian actúa como la fuente única de verdad (*Single Source of Truth*) para la arquitectura, inventario, segmentación y evolución continua de la red local e infraestructura.
 
