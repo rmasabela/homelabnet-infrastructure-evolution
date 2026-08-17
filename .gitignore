@@ -1,0 +1,32 @@
+# ==============================================================================
+# Obsidian - Entorno y estado dinámico local
+# ==============================================================================
+# Historial de espacio de trabajo, pestañas y layouts activos
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Cache y datos volátiles de plugins
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/cache/
+
+# ==============================================================================
+# Sistema Operativo y Basura Local
+# ==============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
