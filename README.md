@@ -4,7 +4,7 @@ type: index
 status: published
 owner: Richie
 created: 2026-08-11
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 tags:
   - homelab
   - index
@@ -58,7 +58,7 @@ Bienvenido al índice central de **HomeLabNet**. Este repositorio y vault de Obs
 * [tasks_backlog.md](tasks_backlog.md) — Mejoras y tareas pendientes en la infraestructura.
 * [tasks_roadmap.md](tasks_roadmap.md) — Hitos de evolución continua de HomeLabNet.
 
-### 8. 📊 Diagramas & Mapas (`diagrams_`)
+### 8. 📊 Diagramas & Visuales (`diagrams_` / `media_`)
 * [diagrams_physical.png](diagrams_physical.png) — Diagrama de topología y conexiones físicas.
 * [diagrams_logical.png](diagrams_logical.png) — Diagrama de arquitectura lógica y flujo de datos.
 * [diagrams_vlans.png](diagrams_vlans.png) — Esquema visual de segmentación y distribución de VLANs.
@@ -74,8 +74,8 @@ Bienvenido al índice central de **HomeLabNet**. Este repositorio y vault de Obs
 ---
 
 ## 📌 Convenciones del Vault
-* **Enlaces e Imágenes:** Utilizar estrictamente enlaces relativos estándar CommonMark `[texto](archivo.md)` e imágenes `![alt](ruta/imagen.png)` sin sintaxis WikiLink.
-* **Ubicación de Adjuntos:** Los recursos multimedia, diagramas y capturas se ubican en `./attachments/` o bajo el prefijo `diagrams_`.
+* **Enlaces e Imágenes:** Utilizar estrictamente enlaces relativos estándar CommonMark `[texto](archivo.ext)` e imágenes `![alt](archivo.ext)` sin sintaxis WikiLink.
+* **Adjuntos y Recursos Planos:** Todo recurso adjunto (manuales, capturas, scripts, dumps) se almacena en la raíz bajo su prefijo formal (`specs_`, `media_`, `dumps_`, `code_`, `compose_`, `backup_`, `data_`, `templates_`).
 * **Cero Secretos:** No almacenar contraseñas ni tokens en texto plano; documentar únicamente identificadores del gestor de credenciales.
 * **Control de Cambios:** Todo ajuste de infraestructura debe registrarse en `ops_changelog.md` antes de realizar `git push`.
 
@@ -84,5 +84,5 @@ Bienvenido al índice central de **HomeLabNet**. Este repositorio y vault de Obs
 ## 📝 Control de Cambios y Autoría
 
 * **Autor:** Richie
-* **Fecha de última actualización:** 2026-08-16
-* **Versión del documento:** 1.0.0
+* **Fecha de última actualización:** 2026-08-17
+* **Versión del documento:** 1.1.0
